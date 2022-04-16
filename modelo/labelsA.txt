@@ -1,1 +1,3 @@
-
+0 Cabo USB Sem Defeito
+1 Cabo USB Com Defeito
+2 Sem item
