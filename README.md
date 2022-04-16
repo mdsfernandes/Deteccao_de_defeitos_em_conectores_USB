@@ -21,8 +21,8 @@ pip install --upgrade pip
 
 - Clonar repositório:
 ```
-git clone https://github.com/mdsfernandes/Deteccao_de_defeitos_em_conectores_USB
-cd Deteccao_de_defeitos_em_conectores_USBc/image_classification
+git clone --recurse-submodules https://github.com/mdsfernandes/Deteccao_de_defeitos_em_conectores_USB.git
+cd Deteccao_de_defeitos_em_conectores_USB/examples/lite/examples/image_classification/raspberry_pi
 ```
 
 - Instale bibliotecas de requisitos:
@@ -34,5 +34,5 @@ sudo apt-get install libatlas-base-dev
 - Executar modelo:
 ```
 python3 classify.py \
-  -- model ~/ai/modelos/modeloA.tflite
+  -- model ~/Deteccao_de_defeitos_em_conectores_USB/modelos/modeloA.tflite
 ```
